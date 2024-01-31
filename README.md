@@ -29,4 +29,4 @@ The design for Skill Bridge was crafted using a free Figma template from [FreeFi
 
 ## Visit the Website
 
-Explore Skill Bridge and start your learning journey today: [Skill Bridge - Your Gateway to Learning](#) *[Replace "#" with the actual URL]*
+Explore Skill Bridge and start your learning journey today: [Skill Bridge](#)

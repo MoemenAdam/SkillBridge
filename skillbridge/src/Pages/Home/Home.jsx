@@ -2,11 +2,14 @@ import React from 'react'
 import NavBar from "../../components/NavBar";
 import Footer from "../../components/Footer";
 import Brands from "../../components/Brands";
+import Benefit from "../../components/Benefit";
+
 export default function Home() {
   return (
     <div>
       <NavBar />
-      <div className='flex justify-center items-center mainMargin mainPadding tracking-wide'>
+      {/* first section */}
+      <section className='flex justify-center items-center mainMargin mainPadding tracking-wide'>
         <div className='flex flex-col w-full justify-between gap-10 sm:p-20'>
           <div className='font-bold text-center'> 
             <div className='flex justify-center items-center md:space-x-1'>
@@ -35,10 +38,44 @@ export default function Home() {
           </div>
           <Brands/>
         </div>
-      </div>
-      <div>
-        <img src="" alt="" />
-      </div>
+      </section>
+
+      {/* second section (image and Benefits) */}
+      <section>
+        <div className='flex mainMargin mainPadding brightness-75'>
+          <img className='w-full h-full' src="img1.png" alt="" />
+        </div>
+        <div className='flex flex-col justify-between mainMargin mainPadding'>
+          <div className='sm:mt-10 flex flex-col xsm:flex-row gap-y-10 justify-center text-center xsm:text-left xsm:justify-between items-center'>
+            <div className='w-3/4'>
+              <h1 className='h1'>Benefits</h1>
+              <p>Lorem ipsum dolor sit amet consectetur.
+                Tempus tincidunt etiam eget elit id imperdiet et.
+                Cras eu sit dignissim lorem nibh et. Ac cum eget
+                  habitasse in velit fringilla feugiat senectus in.</p>
+            </div>
+            <div>
+              <a href="/" className='Hover'>View All</a>
+            </div>
+          </div>
+          <div className='lg2:grid lg2:grid-cols-3'>
+            <Benefit num='01' p1='Flexible Learning Schedule' p2='Fit your coursework around your existing commitments and obligations.'/>
+            <Benefit num='02' p1='Expert Instruction' p2='Learn from industry experts who have hands-on experience in design and development.'/>
+            <Benefit num='03' p1='Diverse Course Offerings' p2='Explore a wide range of design and development courses covering various topics.'/>
+            <Benefit num='04' p1='Updated Curriculum' p2='Access courses with up-to-date content reflecting the latest trends and industry practices.'/>
+            <Benefit num='05' p1='Practical Projects and Assignments' p2='Develop a portfolio showcasing your skills and abilities to potential employers.'/>
+            <Benefit num='06' p1='Interactive Learning Environment' p2='Collaborate with fellow learners, exchanging ideas and feedback to enhance your understanding.'/>
+          </div>
+        </div>
+      </section>
+
+      {/* Our Courses */}
+      
+      {/* Our Testimonials */}
+
+      {/* Our Pricing */}
+
+      {/* Frequently Asked Questions */}
       <Footer />
     </div>
   )

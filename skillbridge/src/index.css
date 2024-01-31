@@ -19,6 +19,10 @@
 .scrollIMGS{
   animation: scroll 20s linear infinite;
 }
+.h1{
+  @apply text-2xl sm:text-5xl mb-3 font-bold;
+
+}
 @keyframes scroll {
   0%{
     transform: translateX(0);

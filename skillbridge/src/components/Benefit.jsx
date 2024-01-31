@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Benefit(props) {
   return (
-    <div className="col-span-1 pb-10 sm:p-10 flex flex-col justify-between">
+    <div className="col-span-1 pt-10 pb-10 sm:p-10 flex flex-col justify-between">
       <div className='font-bold text-right text-4xl'>{props.num}</div>
       <div>
         <p className='font-bold mb-3 text-xl'>{props.p1}</p>

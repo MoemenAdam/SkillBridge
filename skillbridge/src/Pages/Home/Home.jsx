@@ -3,6 +3,9 @@ import NavBar from "../../components/NavBar";
 import Footer from "../../components/Footer";
 import Brands from "../../components/Brands";
 import Benefit from "../../components/Benefit";
+import SectionTop from "../../components/SectionTop";
+import Courses from "../../components/Courses";
+import Testimonial from "../../components/Testimonial";
 
 export default function Home() {
   return (
@@ -46,18 +49,7 @@ export default function Home() {
           <img className='w-full h-full' src="img1.png" alt="" />
         </div>
         <div className='flex flex-col justify-between mainMargin mainPadding'>
-          <div className='sm:mt-10 flex flex-col xsm:flex-row gap-y-10 justify-center text-center xsm:text-left xsm:justify-between items-center'>
-            <div className='w-3/4'>
-              <h1 className='h1'>Benefits</h1>
-              <p>Lorem ipsum dolor sit amet consectetur.
-                Tempus tincidunt etiam eget elit id imperdiet et.
-                Cras eu sit dignissim lorem nibh et. Ac cum eget
-                  habitasse in velit fringilla feugiat senectus in.</p>
-            </div>
-            <div>
-              <a href="/" className='Hover'>View All</a>
-            </div>
-          </div>
+          <SectionTop title='Benefits' desc='Lorem ipsum dolor sit amet consectetur. Tempus tincidunt etiam eget elit id imperdiet et. Cras eu sit dignissim lorem nibh et. Ac cum eget habitasse in velit fringilla feugiat senectus in.'/>
           <div className='lg2:grid lg2:grid-cols-3'>
             <Benefit num='01' p1='Flexible Learning Schedule' p2='Fit your coursework around your existing commitments and obligations.'/>
             <Benefit num='02' p1='Expert Instruction' p2='Learn from industry experts who have hands-on experience in design and development.'/>
@@ -68,13 +60,36 @@ export default function Home() {
           </div>
         </div>
       </section>
-
       {/* Our Courses */}
-      
+      <section>
+        <div className='flex flex-col justify-between mainMargin mainPadding'>
+          <SectionTop title='Our Courses' desc='Lorem ipsum dolor sit amet consectetur. Tempus tincidunt etiam eget elit id imperdiet et. Cras eu sit dignissim lorem nibh et. Ac cum eget habitasse in velit fringilla feugiat senectus in.'/>
+          <div className='lg:grid lg:grid-cols-2'>
+            <Courses img='2.png' p1='4 Weeks' p2='Beginner' p3='By John Smith' p4='Web Design Fundamentals' p5='Learn the fundamentals of web design, including HTML, CSS, and responsive design principles. Develop the skills to create visually appealing and user-friendly websites.'/>
+            <Courses img='3.png' p1='6 Weeks' p2='Intermediate' p3='By Emily Johnson' p4='UI/UX Design' p5='Master the art of creating intuitive user interfaces (UI) and enhancing user experiences (UX). Learn design principles, wireframing, prototyping, and usability testing techniques.'/>
+            <Courses img='4.png' p1='8 Weeks' p2='Intermediate' p3='By David Brown' p4='Mobile App Development' p5='Dive into the world of mobile app development. Learn to build native iOS and Android applications using industry-leading frameworks like Swift and Kotlin.'/>
+            <Courses img='5.png' p1='10 Weeks' p2='Beginner' p3='By Sarah Thompson' p4='Graphic Design for Beginners' p5='Discover the fundamentals of graphic design, including typography, color theory, layout design, and image manipulation techniques. Create visually stunning designs for print and digital media.'/>
+            <Courses img='6.png' p1='10 Weeks' p2='Intermediate' p3='By Michael Adams' p4='Front-End Web Development' p5='Become proficient in front-end web development. Learn HTML, CSS, JavaScript, and popular frameworks like Bootstrap and React. Build interactive and responsive websites.'/>
+            <Courses img='7.png' p1='6 Weeks' p2='Advance' p3='By Jennifer Wilson' p4='Advanced JavaScript' p5='Take your JavaScript skills to the next level. Explore advanced concepts like closures, prototypes, asynchronous programming, and ES6 features. Build complex applications with confidence.'/>
+          </div>
+        </div>
+      </section>
       {/* Our Testimonials */}
-
+      <section>
+        <div className='flex flex-col justify-between mainMargin mainPadding'>
+          <SectionTop title='Our Testimonials' desc='Lorem ipsum dolor sit amet consectetur. Tempus tincidunt etiam eget elit id imperdiet et. Cras eu sit dignissim lorem nibh et. Ac cum eget habitasse in velit fringilla feugiat senectus in.'/>
+          <div className='lg:grid lg:grid-cols-2'>
+            <Testimonial img='2.png' name='Sarah L' p1='The web design course provided a solid foundation for me. The instructors were knowledgeable and supportive, and the interactive learning environment was engaging. I highly recommend it!'/>
+            <Testimonial img='3.png' name='Jason M' p1='The UI/UX design course exceeded my expectations. The instructors expertise and practical assignments helped me improve my design skills. I feel more confident in my career now. Thank you!'/>
+            <Testimonial img='4.png' name='Emily R' p1='The mobile app development course was fantastic! The step-by-step tutorials and hands-on projects helped me grasp the concepts easily. Im now building my own app. Great course!'/>
+            <Testimonial img='5.png' name='Michael K' p1='I enrolled in the graphic design course as a beginner, and it was the perfect starting point. The instructors guidance and feedback improved my design abilities significantly. Im grateful for this course!'/>
+          </div>
+        </div>
+      </section>
       {/* Our Pricing */}
+      <section>
 
+      </section>
       {/* Frequently Asked Questions */}
       <Footer />
     </div>

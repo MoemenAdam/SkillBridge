@@ -1,6 +1,3 @@
-# SkillBridge
-online course website
-
 # Skill Bridge - Your Gateway to Learning
 
 Welcome to Skill Bridge, an online learning platform that redefines the way you acquire new skills. This repository serves as the central hub for our project, providing information on key features, technologies used, and a link to the live website.
@@ -21,6 +18,10 @@ Skill Bridge is committed to delivering a clean, structured, and intuitive learn
 
 - **Responsive Platform:** Access Skill Bridge on any device - desktop, tablet, or smartphone - with a consistent and enjoyable learning experience.
 
+## Design Attribution
+
+The design for Skill Bridge was crafted using a free Figma template from [FreeFigmaTemplates.com](https://freefigmatemplates.com). We express our gratitude for the valuable design resources they provide.
+
 ## Technologies Used
 
 - React
@@ -29,12 +30,3 @@ Skill Bridge is committed to delivering a clean, structured, and intuitive learn
 ## Visit the Website
 
 Explore Skill Bridge and start your learning journey today: [Skill Bridge - Your Gateway to Learning](#) *[Replace "#" with the actual URL]*
-
-## Screenshots
-
-![Screenshot 1](screenshots/screenshot1.png)
-*Caption for Screenshot 1*
-
-![Screenshot 2](screenshots/screenshot2.png)
-*Caption for Screenshot 2*
-

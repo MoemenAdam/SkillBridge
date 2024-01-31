@@ -12,10 +12,6 @@ Skill Bridge is committed to delivering a clean, structured, and intuitive learn
   
 - **Structured Course Modules:** Enjoy a logical progression of learning with clearly defined course modules.
 
-- **Interactive Learning Resources:** Engage with multimedia elements, quizzes, and practical exercises for a dynamic learning experience.
-
-- **User Progress Tracking:** Stay on top of your learning journey with built-in progress tracking.
-
 - **Responsive Platform:** Access Skill Bridge on any device - desktop, tablet, or smartphone - with a consistent and enjoyable learning experience.
 
 ## Design Attribution

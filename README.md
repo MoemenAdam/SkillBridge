@@ -1,6 +1,6 @@
 # Skill Bridge - Your Gateway to Learning
 
-Welcome to Skill Bridge, an online learning platform that redefines the way you acquire new skills. This repository serves as the central hub for our project, providing information on key features, technologies used, and a link to the live website.
+
 
 ## Overview
 

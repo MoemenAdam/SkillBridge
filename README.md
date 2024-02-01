@@ -16,7 +16,7 @@ Skill Bridge is committed to delivering a clean, structured, and intuitive learn
 
 ## Design Attribution
 
-The design for Skill Bridge was crafted using a free Figma template from [FreeFigmaTemplates.com](https://freefigmatemplates.com). We express our gratitude for the valuable design resources they provide.
+The design for Skill Bridge was crafted using a free Figma template from [FreeFigmaTemplates.com](https://freefigmatemplates.com). i express my gratitude for the valuable design resources they provide.
 
 ## Technologies Used
 

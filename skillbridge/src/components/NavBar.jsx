@@ -1,11 +1,10 @@
 import React from 'react'
 
 export default function NavBar() {
-
-  const BurgerClicked = ()=>{
-    console.log('burgor clicked');
+  const burgerClicked = () => {
+    const sideNav = document.getElementById('sideNav');
+    sideNav.classList.toggle('hidden')
   }
-
   return (
     <div>
       <div>
@@ -29,12 +28,23 @@ export default function NavBar() {
               <li className=' cursor-pointer'>Sign Up</li>
               <li className='bg-primary px-5 py-2 text-white rounded btn'>Login</li>
             </ul>
-            <div className='lg:hidden cursor-pointer hidd' onClick={BurgerClicked}>
+            <div className='lg:hidden cursor-pointer' onClick={burgerClicked}>
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
               </svg>
             </div>
           </div>
+        </div>
+        <div id='sideNav' className='hidden absolute z-50 bg-white w-full lg:hidden shadow-xl rounded-xl justify-between items-center mainPadding font-bold'>
+          <ul className='text-center space-y-10 p-5'>
+            <li className='Hover'>Home</li>
+            <li className='Hover'>Courses</li>
+            <li className='Hover'>About Us</li>
+            <li className='Hover'>Pricing</li>
+            <li className='Hover'>Contact</li>
+            <li className='flex xsm:hidden cursor-pointer justify-center'>Sign Up</li>
+            <li className='flex xsm:hidden bg-primary px-5 py-2 text-white rounded btn justify-center'>Login</li>
+          </ul>
         </div>
       </div>
     </div>

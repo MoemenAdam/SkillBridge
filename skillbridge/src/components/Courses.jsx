@@ -20,7 +20,7 @@ export default function Courses(props) {
         <p>{props.p5}</p>
       </div>
       <div className='mt-10 text-center'>
-        <a className='Hover' href="/">Get it Now</a>
+        <p className='Hover'>Get it Now</p>
       </div>
     </div>
   )

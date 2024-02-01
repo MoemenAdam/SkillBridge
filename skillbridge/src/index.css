@@ -11,10 +11,10 @@
 }
 
 .Hover{
-  @apply hover:underline underline-offset-4;
+  @apply hover:underline underline-offset-4 cursor-pointer;
 }
 .btn{
-  @apply hover:text-yellow-100 transition duration-300;
+  @apply hover:text-yellow-100 transition duration-300 cursor-pointer;
 }
 .scrollIMGS{
   animation: scroll 20s linear infinite;

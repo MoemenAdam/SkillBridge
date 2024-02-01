@@ -10,7 +10,7 @@ export default function Benefit(props) {
           <span className='font-bold'>{props.name}</span>
         </div>
         <div>
-          <a className='Hover font-semibold' href="/">Read Full Story</a>
+          <p className='Hover font-semibold'>Read Full Story</p>
         </div>
       </div>
     </div>

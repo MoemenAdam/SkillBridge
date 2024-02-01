@@ -17,8 +17,8 @@ export default function Pricing() {
           </div>
           <div>
             <ul className='flex justify-center items-center space-x-5'>
-              <li className='bg-primary px-5 py-2 text-white rounded btn'><a href="/">Monthly</a></li>
-              <li><a href="/">Yearly</a></li>
+              <li className='bg-primary px-5 py-2 text-white rounded btn'>Monthly</li>
+              <li className='cursor-pointer'>Yearly</li>
             </ul>
           </div>
       </div>

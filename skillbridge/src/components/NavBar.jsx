@@ -18,16 +18,16 @@ export default function NavBar() {
         <div className='flex mainMargin justify-between items-center mainPadding font-bold'>
           <ul className='flex justify-center items-center space-x-10'>
             <li><img src="logo.png" alt="logo" /></li>
-            <li className='Hover hidden lg:block'><a href="/">Home</a></li>
-            <li className='Hover hidden lg:block'><a href="/">Courses</a></li>
-            <li className='Hover hidden lg:block'><a href="/">About Us</a></li>
-            <li className='Hover hidden lg:block'><a href="/">Pricing</a></li>
-            <li className='Hover hidden lg:block'><a href="/">Contact</a></li>
+            <li className='Hover hidden lg:block'>Home</li>
+            <li className='Hover hidden lg:block'>Courses</li>
+            <li className='Hover hidden lg:block'>About Us</li>
+            <li className='Hover hidden lg:block'>Pricing</li>
+            <li className='Hover hidden lg:block'>Contact</li>
           </ul>
           <div className='flex items-center gap-5'>
             <ul className='hidden xsm:flex justify-center items-center space-x-5'>
-              <li><a href="/">Sign Up</a></li>
-              <li className='bg-primary px-5 py-2 text-white rounded btn'><a href="/">Login</a></li>
+              <li className=' cursor-pointer'>Sign Up</li>
+              <li className='bg-primary px-5 py-2 text-white rounded btn'>Login</li>
             </ul>
             <div className='lg:hidden cursor-pointer hidd' onClick={BurgerClicked}>
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6">

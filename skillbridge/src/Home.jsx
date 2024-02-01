@@ -37,8 +37,8 @@ export default function Home() {
             </div>
           </div>
           <div className='flex flex-wrap justify-center items-center'>
-            <a className='px-4 py-3 text-white bg-primary rounded-lg btn' href="/">Explore Courses</a>
-            <a className='px-4 py-3' href="/">View Pricing</a>
+            <p className='px-4 py-3 text-white bg-primary rounded-lg btn'>Explore Courses</p>
+            <p className='px-4 py-3 cursor-pointer'>View Pricing</p>
           </div>
           <Brands/>
         </div>

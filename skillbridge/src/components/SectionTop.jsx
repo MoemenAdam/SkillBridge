@@ -8,7 +8,7 @@ export default function SectionTop(props) {
         <p>{props.desc}</p>
         </div>
         <div>
-        <a href="/" className='Hover'>View All</a>
+        <p className='Hover'>View All</p>
       </div>
     </div>
   )

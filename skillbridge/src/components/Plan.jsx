@@ -59,7 +59,9 @@ export default function Plan(props) {
         </div>
         <div>
           <ul>
-            <li className='bg-primary px-5 py-2 text-center text-white rounded-lg rounded-t-none btn'><a href="/">Get Started</a></li>  
+            <li className='bg-primary px-5 py-2 text-center text-white rounded-lg rounded-t-none btn'>
+              Get Started
+            </li>  
           </ul>
         </div>
       </div>

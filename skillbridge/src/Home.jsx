@@ -1,11 +1,12 @@
 import React from 'react'
-import NavBar from "../../components/NavBar";
-import Footer from "../../components/Footer";
-import Brands from "../../components/Brands";
-import Benefit from "../../components/Benefit";
-import SectionTop from "../../components/SectionTop";
-import Courses from "../../components/Courses";
-import Testimonial from "../../components/Testimonial";
+import NavBar from "./components/NavBar";
+import Footer from "./components/Footer";
+import Brands from "./components/Brands";
+import Benefit from "./components/Benefit";
+import SectionTop from "./components/SectionTop";
+import Courses from "./components/Courses";
+import Testimonial from "./components/Testimonial";
+import Pricing from './components/Pricing';
 
 export default function Home() {
   return (
@@ -88,9 +89,8 @@ export default function Home() {
       </section>
       {/* Our Pricing */}
       <section>
-
+        <Pricing />
       </section>
-      {/* Frequently Asked Questions */}
       <Footer />
     </div>
   )

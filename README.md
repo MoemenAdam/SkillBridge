@@ -5,7 +5,7 @@
 ## Overview
 
 Skill Bridge is committed to delivering a clean, structured, and intuitive learning experience. Our platform is designed to be user-friendly, offering a seamless journey for learners to acquire knowledge and skills.
-
+[![SkillBridge](main.png)](https://skilbridge.netlify.app/)
 ## Features
 
 - **Clean and Intuitive Design:** Navigate through courses effortlessly with a visually appealing and clutter-free interface.
